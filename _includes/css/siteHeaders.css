@@ -1,5 +1,5 @@
 nav ul li a {
-    /* color: white; */
+    color: white;
     text-decoration-line: none;
 }
 
@@ -14,7 +14,7 @@ nav ul li {
     padding-bottom: 3rem; */   
     font-family: 'webflow-icons' !important;
     content: "\e603";
-    /* color: white; */
+    color: white;
 }
 
 nav {

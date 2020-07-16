@@ -1,4 +1,4 @@
-<header class="marginBottom">
+<header class="container marginBottom">
     <nav>
         <ul class="nav">
             <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.domainUrl}}{{site.baseUrl}}/">
@@ -6,7 +6,13 @@
                         class="siteLogo" />
                 </a></li>
             {% for siteHeader in site.data.siteHeaders %}
-            <li class=""><a href="{{site.baseUrl}}/{{siteHeader.headerTitle}}/">{{siteHeader.headerTitle | upcase}}<span class="siteHeader"></span></a> </li>
+
+            {% for navItem in siteHeader.nav %}
+            
+            <li class=""><a href="{{site.baseUrl}}/{{navItem.headerTitle}}/">{{navItem.headerTitle | upcase}}<span class="siteHeader"></span></a> </li>
+
+            {% endfor %}
+
             {% endfor %}
         </ul>
     </nav>
