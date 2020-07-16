@@ -13,7 +13,7 @@
     <div class="displayInline floatRight col-sm-4 col-md-4 col-lg-4 bgGradientShape">
         <span class="frontpageBgParallelogram"></span>
         {% for fp in site.data.frontpageContent %}
-        <img src="{{site.baseUrl}}{{fp.frontpage-banner-img}}" alt="{{site.siteTitle}} Analytic Dashboard" class="frontpageBannerImg"/>
+        <img src="{{site.domainUrl}}{{site.baseUrl}}{{fp.frontpage-banner-img}}" alt="{{site.siteTitle}} Analytic Dashboard" class="frontpageBannerImg"/>
         {% endfor %}
     </div>
 </div>

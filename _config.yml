@@ -1,5 +1,5 @@
-domainUrl: ""
-baseUrl: ""
+domainUrl: "https://georgedavis-tm.github.io"
+baseUrl: "/GeorgeDavis-TM"
 siteTitle: "Eyedtentee"
 siteLogo: "/img/eyedtentee_logo.png"
 exclude: ['README.md']
