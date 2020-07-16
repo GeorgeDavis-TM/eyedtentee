@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.siteLogo {
+   width: 10rem;
+   height: auto;
+   background: cover;    
+}
+
+.siteGradient {
+    background: rgb(237,50,166);
+    background: linear-gradient(135deg, rgba(237,50,166,1) 0%, rgba(182,97,218,1) 50%, rgba(119,27,213,1) 100%);
+}
+
+.marginBottom {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "nav": [
+            {
+                "headerTitle": "platform"
+            },
+            {
+                "headerTitle": "resources"
+            },
+            {
+                "headerTitle": "company"
+            }
+        ],
+        "site-header-buttons": [
+            {
+                "buttonText": "LOG IN"
+            },
+            {
+                "buttonText": "REQUEST A DEMO"
+            }
+        ],
+    }
+]

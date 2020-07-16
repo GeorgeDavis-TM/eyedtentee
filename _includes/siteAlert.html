@@ -1,0 +1,9 @@
+{% for fp in site.data.frontpageContent %}
+
+<div class="container marginBottom">
+    <span class="siteGradient alert">NEW</span>
+    <span>{{ fp.frontpage-new-alert }}</span>
+    <span><img src="{{site.baseUrl}}img/right_arrow_grey.svg"></span>
+</div>
+
+{% endfor %}

@@ -1,0 +1,9 @@
+domainUrl: ""
+baseUrl: ""
+siteTitle: "Eyedtentee"
+siteLogo: "/img/eyedtentee_logo.png"
+exclude: ['README.md']
+premalink: pretty
+
+# Website Hosting Configuration
+# port: 80

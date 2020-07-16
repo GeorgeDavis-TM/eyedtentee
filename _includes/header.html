@@ -1,0 +1,13 @@
+<header class="marginBottom">
+    <nav>
+        <ul class="nav">
+            <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.domainUrl}}{{site.baseUrl}}/">
+                    <img src="{{site.domainUrl}}{{site.baseUrl}}{{site.siteLogo}}" alt="{{site.siteTitle}} Logo"
+                        class="siteLogo" />
+                </a></li>
+            {% for siteHeader in site.data.siteHeaders %}
+            <li class=""><a href="{{site.baseUrl}}/{{siteHeader.headerTitle}}/">{{siteHeader.headerTitle | upcase}}<span class="siteHeader"></span></a> </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
