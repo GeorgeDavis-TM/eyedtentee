@@ -1,19 +1,13 @@
-<div class="container">
-    <div class="displayInline col-sm-6 col-md-6 col-lg-6">
-        {% for fp in site.data.frontpageContent %}
+<div class="marginBottom">    
 
-        <div class="frontpageBannerText marginBottom">{{ fp.frontpage-banner-text }}</div>
-        
-        <div class="frontpageBannerDescription marginBottom">{{ fp.frontpage-banner-description }}</div>
-        
-        <button class="siteGradient callToActionButton marginBottom">{{ fp.frontpage-call-to-action-button-text }}</button>
-        
-        {% endfor %}
-    </div>
-    <div class="displayInline floatRight col-sm-4 col-md-4 col-lg-4 bgGradientShape">
-        <span class="frontpageBgParallelogram"></span>
-        {% for fp in site.data.frontpageContent %}
-        <img src="{{site.domainUrl}}{{site.baseUrl}}{{fp.frontpage-banner-img}}" alt="{{site.siteTitle}} Analytic Dashboard" class="frontpageBannerImg"/>
-        {% endfor %}
-    </div>
+    {% for fp in site.data.frontpageContent %}
+
+    <div class="frontpageBannerText marginBottom">{{ fp.frontpage-banner-text }}</div>
+    
+    <div class="frontpageBannerDescription marginBottom">{{ fp.frontpage-banner-description }}</div>
+    
+    <button type="button" class="btn siteGradient callToActionButton marginBottom">{{ fp.frontpage-call-to-action-button-text }}</button>
+    
+    {% endfor %}
+    
 </div>

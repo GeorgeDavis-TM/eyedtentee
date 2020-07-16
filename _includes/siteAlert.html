@@ -1,9 +1,11 @@
-{% for fp in site.data.frontpageContent %}
+<div class="marginTop marginBottom">
 
-<div class="container marginBottom">
+    {% for fp in site.data.frontpageContent %}
+
     <span class="siteGradient alert">NEW</span>
     <span>{{ fp.frontpage-new-alert }}</span>
     <span><img src="{{site.domainUrl}}{{site.baseUrl}}/img/right_arrow_grey.svg"></span>
-</div>
 
-{% endfor %}
+    {% endfor %}
+
+</div>

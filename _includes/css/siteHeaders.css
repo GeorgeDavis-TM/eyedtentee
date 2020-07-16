@@ -38,3 +38,18 @@ nav ul li:first-child {
     padding: 0;
     margin: 0;
 }
+
+.linkButton {
+    margin: 1rem 0.25rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.linkButton a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.linkButton:first-child {
+    margin-left: 3rem;
+}

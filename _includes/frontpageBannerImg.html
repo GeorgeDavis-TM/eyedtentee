@@ -1,0 +1,6 @@
+<div class="bgGradientShape">
+    <span class="frontpageBgParallelogram"></span>
+    {% for fp in site.data.frontpageContent %}
+    <img src="{{site.domainUrl}}{{site.baseUrl}}{{fp.frontpage-banner-img}}" alt="{{site.siteTitle}} Analytic Dashboard" class="frontpageBannerImg"/>
+    {% endfor %}
+</div>

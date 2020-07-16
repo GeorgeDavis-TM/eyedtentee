@@ -40,8 +40,8 @@
 .col-sm-5,
 .col-sm-6,
 .col-sm-12,
-.col-sm-10 {
-    border: 10px solid red;
+.col-sm-10, .container {
+    border: 1px solid red;
 } */
 
 .displayInline {
@@ -49,6 +49,6 @@
 }
 
 .frontpageBannerImg {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 100%;
+    max-height: 100%;
 }
