@@ -9,13 +9,13 @@
 
             {% for navItem in siteHeader.nav %}
             
-            <li class=""><a href="{{site.baseUrl}}/{{navItem.headerTitle}}/">{{navItem.headerTitle | upcase}} <span class="siteHeader"></span></a> </li>
+            <li class=""><a href="{{site.baseUrl}}/{{navItem.headerLink}}/">{{navItem.headerTitle | upcase}} <span class="siteHeader"></span></a> </li>
 
             {% endfor %}
 
             {% for buttonItem in siteHeader.site-header-buttons %}
             
-            <button type="button" class="linkButton siteGradient"><a href="{{site.baseUrl}}/{{buttonItem.buttonText}}/">{{buttonItem.buttonText | upcase}}</a> </button>
+            <button type="button" class="linkButton siteGradient"><a href="{{site.baseUrl}}/{{buttonItem.buttonLink}}/">{{buttonItem.buttonText | upcase}}</a> </button>
 
             {% endfor %}
 

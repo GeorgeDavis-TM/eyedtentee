@@ -2,21 +2,26 @@
     {
         "nav": [
             {
-                "headerTitle": "platform"
+                "headerTitle": "platform",
+                "headerLink": "#"
             },
             {
-                "headerTitle": "resources"
+                "headerTitle": "resources",
+                "headerLink": "#"
             },
             {
-                "headerTitle": "company"
+                "headerTitle": "company",
+                "headerLink": "#"
             }
         ],
         "site-header-buttons": [
             {
-                "buttonText": "LOG IN"
+                "buttonText": "SCHEDULE DEMO",
+                "buttonLink": "#"
             },
             {
-                "buttonText": "REQUEST A DEMO"
+                "buttonText": "PLAY FROLF WITH US",
+                "buttonLink": "#"
             }
         ],
     }
