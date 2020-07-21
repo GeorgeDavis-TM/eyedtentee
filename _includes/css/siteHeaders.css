@@ -1,5 +1,5 @@
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration-line: none;
 }
 
@@ -14,7 +14,7 @@ nav ul li {
     padding-bottom: 3rem; */   
     font-family: 'webflow-icons' !important;
     content: "\e603";
-    color: white;
+    color: black;
 }
 
 nav {
@@ -30,7 +30,7 @@ nav ul {
 nav li {
     float: left;
     padding: 2rem 2rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     list-style: none;
 }
 
@@ -42,6 +42,7 @@ nav ul li:first-child {
 .linkButton {
     margin: 1rem 0.25rem;
     padding: 1rem;
+    border: 0;
     border-radius: 0.5rem;
 }
 
