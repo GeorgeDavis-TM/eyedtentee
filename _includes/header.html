@@ -9,7 +9,7 @@
 
             {% for navItem in siteHeader.nav %}
             
-            <li class=""><a href="{{site.baseUrl}}/{{navItem.headerLink}}/">{{navItem.headerTitle | upcase}} <img src="{{site.domainUrl}}{{site.baseUrl}}/img/down_arrow.svg" class="siteHeader"/></a> </li>
+            <li class=""><a href="{{site.baseUrl}}/{{navItem.headerLink}}/" class="link">{{navItem.headerTitle | upcase}} <img src="{{site.domainUrl}}{{site.baseUrl}}/img/down_arrow.svg" class="siteHeader"/></a> </li>
 
             {% endfor %}
 
