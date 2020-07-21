@@ -9,12 +9,15 @@ nav ul li {
     text-align: center;
 }
 
-.siteHeader:after {
-    /* padding-top: 3rem;
-    padding-bottom: 3rem; */   
+/* .siteHeader:after { 
     font-family: 'webflow-icons' !important;
     content: "\e603";
     color: black;
+} */
+
+.siteHeader {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
 }
 
 nav {
