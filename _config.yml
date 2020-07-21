@@ -1,5 +1,5 @@
-domainUrl: "https://georgedavis-tm.github.io"
-baseUrl: "/GeorgeDavis-TM"
+domainUrl: "http://100.27.34.221"
+baseUrl: ""
 siteTitle: "Eyedtentee"
 siteLogo: "/img/eyedtentee_logo.png"
 exclude: ['README.md']
